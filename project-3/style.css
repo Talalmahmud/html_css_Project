@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body{
+    height: 100vh;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 1.8rem;
+    color: #666;
+}
+
+.img1{
+    background-image: url('./images/pine-forest-with-rocks-green-moss.jpg');
+    min-height: 100%;
+    
+}
+.img2{
+    background-image: url('./images/forest-panorama-rays-sunlight.jpg');
+    min-height: 400px;
+    
+}
+.img3{
+    background-image: url('./images/OceanImageBank_StefanAndrews_35.jpeg');
+    min-height: 400px;
+    
+}
+
+.img4{
+    background-image: url('./images/pine-forest-with-rocks-green-moss.jpg');
+    min-height: 100px;
+    
+}
+
+.img1, .img2, .img3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.textbg{
+    background-color: rgb(51, 34, 34);
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.section{
+    padding: 50px 80px;
+    text-align: center;
+}
+.section-light{
+    background-color: rgb(51, 34, 34);
+    color: white;
+}
+
+@media screen and (max-width:350px) {
+    .ptext{
+        font-size: 1rem;
+    }
+}
